@@ -82,10 +82,3 @@ Error Handling
 - 500: Unhandled server errors
 
 All errors return JSON with a relevant error description.
-
-Extending / Customizing
-------------------------
-- Production: Use persistent backends like SQLite, Redis, or other databases for url_store.
-- Logging: Modify logging_middleware/middleware.py for advanced logging, including file or cloud log support.
-- Testing: Integrate with tools like Postman for REST API testing.
-
