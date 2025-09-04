@@ -7,7 +7,7 @@ Features
 --------
 - Create short URLs with optional custom shortcodes
 - Set expiry for each short URL (default: 24 hours)
-- In-memory URL storage (no database required for demo purposes)
+- In-memory URL storage
 - Request/response logging via custom Flask middleware
 - RESTful API endpoints for short URL creation and resolution
 - Error handling and user-friendly JSON responses
